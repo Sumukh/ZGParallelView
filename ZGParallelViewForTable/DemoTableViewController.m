@@ -26,8 +26,9 @@
     [super viewDidLoad];
 
     [self customizeUI];
-    
-#warning init with or without displayRadio. This is the first line of code
+  
+  
+//warning init with or without displayRadio. This is the first line of code
     //[self.tableView addParallelViewWithUIView:self.awesomeZG];
     [self.tableView addParallelViewWithUIView:self.awesomeZG withDisplayRadio:0.7 cutOffAtMax:YES];
     
@@ -61,7 +62,7 @@
 
 - (void)customizeUI{
     self.headerScrollView.contentSize = self.contontView.frame.size;
-    [self.avatar.layer setCornerRadius:5.f];
+    [self.avatar.layer setCornerRadius:5.f];way
     [self.avatar.layer setMasksToBounds:YES];
 }
 
